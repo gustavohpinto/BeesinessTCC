@@ -1,0 +1,106 @@
+/* Google Fonts Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,100&display=swap');
+/* Cor de Fundo da Beesiness #524666 */
+
+
+html{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+}
+
+header h1 {
+    margin-top: -100px;
+}
+
+header, header::before{
+    background: 50% 50% / cover;
+}
+
+header::before{
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: url("../img/bussinessRed.jpg");
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+    filter: blur(3px);
+    -webkit-filter: blur(3px)
+}
+
+
+header *{
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+}
+
+.container {
+    z-index: 2;
+    position: absolute;
+    top: 100vh;
+    margin-top: 2rem;
+    background: #524666;
+    padding: 2rem 4rem;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+i{
+    margin-left: 20px;
+    font-size: 0.8rem;
+}
+
+
+@media screen and (min-width: 768px){
+
+    li{
+        margin-right: 20px;
+        font-size: 1rem;
+    }
+    a{
+        text-decoration: none;
+        color: #f1f1f1;
+    }
+    
+    i{
+        margin-left: 20px;
+        font-size: 0.8rem;
+    }
+}

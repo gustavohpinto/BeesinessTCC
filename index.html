@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beesiness</title>
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./homepage/assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Beesiness</a>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item item_para_scrol"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item item_para_scrol"><a href="#educacao" class="nav__link">Educação Financeira</a></li>
+                    <li class="nav__item item_para_scrol"><a href="#educacaoAmb" class="nav__link">Educação Ambiental</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="l-main">
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__img">
+                    <img src="./homepage/assets/img/abelha.png" alt="" data-speed="2" class="move">
+                    <img src="./homepage/assets/img/nome.png" alt="" data-speed="-2" class="move">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Beesiness</h1>
+                    <h2 class="home__subtitle">Polinize seu dinheiro.</h2>
+                    <p class="home__description">Nossa missão é conscientizar as pessoas sobre a relação entre<br> os
+                        gastos, o consumo, evidenciando a relação desses fatores<br>com a sua vida e o seu dia a dia.
+                    </p>
+                    <a class="home__button" type="submit" onclick="irLogin()">Conheça</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Section Educação Financeira -->
+    <section class="home edFin">
+        <div class="home__container bd-grid" id="educacao">
+            <div class="home__img" id="educacaoFinImg">
+                <img src="./homepage/assets/img/coin.png" alt="" data-speed="2" class="move">
+            </div>
+
+            <div class="home__data" id="educacaoFinTxt">
+                <h1 class="home__title">Educação<br>Financeira</h1>
+                <p class="home__description">A arte de economizar, gerir gastos<br> e planejar-se para crises</p>
+                <a class="home__button" type="submit" href="./abelhas/index.html">Ler mais sobre</a> <!-- href="#edFin.html"-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Educação Ambiental -->
+    <section class="home edAmb">
+        <div class="home__container bd-grid" id="educacaoAmb">
+            <div class="home__img" id="educacaoAmbImg">
+                <img src="./homepage/assets/img/abelha_flor.png" alt="" data-speed="2" class="move">
+            </div>
+
+            <div class="home__data" id="educacaoAmbTxt">
+                <h1 class="home__title">Educação<br>Ambiental</h1>
+                <p class="home__description">Pois preservar a fauna e flora e essencial para o futuro</p>
+                <a class="home__button" type="submit" href="./educacaoFinanceira/index.html">Ler mais sobre</a> <!-- href="#edFin.html"-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Botão Subir ao Topo da Página -->
+    <div class="fab item_para_scrol" ontouchstart="">
+        <a class="main" href="#home"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAUlJREFUWEft1d1thDAMB/AY3vmYpO0EvW7QEa4b3Ci3QTtCN+h1g+skoLyDT64OKUIh2DiVUGVeEODAj78hAbfzDXbucwbUdsgStAQlCXRd11B927a9ZFyqNts3SLiiKL7oYeM4vuRCZgEGuMd7GtdcSDUwgps6lgWpAiZw2ZCbgQxcFuQmoACnRoqBMRwA/JAEER9oPz/W/Dgi4BJuGIYDAHwCwPMd+o2Ir2VZXib0ViQbmMLRnNf3/SUENk1zoDFaJAu4hqN0YkA6r0WygN77a9gq+saoreFqsQRMIeu6flpbErnAIyK+Tz/AHJdKcALMkwSAt6qqPrIA6Sbe+6Nz7hTDcYBhks65Mwf3G8jaG3Cvp1rMvUeszoCa9KzF2vQsQUtQksDu50HJy0hqs03UkodKag0oSetP12ItZGm8tVibrCX47xO8AUJtMjiRREziAAAAAElFTkSuQmCC" /></i></a>
+    </div>
+
+    <!-- Javascript -->
+    <script src="./homepage/assets/js/main.js"></script>
+    <script src="./homepage/assets/js/scrool.js"></script>
+    <!-- <script src="./assets/js/scrooling2.js"></script> -->
+    <!-- Animação GASP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+</body>
+
+</html>

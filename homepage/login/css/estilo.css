@@ -1,0 +1,200 @@
+html{
+    scroll-behavior: smooth;    /*Rolamento lento*/
+}
+
+body{
+    background-color: rgb(227, 229, 231);
+    overflow: inherit;
+}
+
+#imgesq{
+	float: left;
+  margin-top: 10px;
+	}
+
+#imgdir{
+	float: right;
+  margin-right: 110px;
+}
+
+/* Logo no NAvbar */
+#logo{
+   height:15%;
+   width: 15%;
+   border-radius: 12%;
+}
+
+/* Imagens abaixo do Carrossel */
+.imgFormat{
+    width: 128px;
+    height: 128px;
+    border-radius: 12%;
+
+}
+
+.imgCol{
+    width: 256px;
+    height: 256px;
+    border-radius: 12%;
+}
+
+
+/* Tirando o Text Decortaion do Link */
+.linkPosts{
+    text-decoration: none;
+    color: #161616;
+}
+
+/* Cor do beesines no BTN */
+.btn-warning2 {
+    color: #212529;
+    background-color: #F18404;
+    border-color: #F18404;
+  }
+  
+  .btn-warning2:hover {
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+  }
+  
+  .btn-warning2:focus, .btn-warning2.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  }
+  
+  .btn-warning2.disabled, .btn-warning2:disabled {
+    color: #212529;
+    background-color: #F18404;
+    border-color: #F18404;
+  }
+  
+  .btn-warning2:not(:disabled):not(.disabled):active, .btn-warning2:not(:disabled):not(.disabled).active,
+  .show > .btn-warning2.dropdown-toggle {
+    color: #212529;
+    background-color: #d39e00;
+    border-color: #c69500;
+  }
+  
+  .btn-warning2:not(:disabled):not(.disabled):active:focus, .btn-warning2:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-warning2.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  }
+
+.beesiness::first-line{
+    color:#F18404;
+
+}
+/* Cor Navbar Dropdown quando clica */
+a.cor-home{
+    color: rgb(45, 135, 238);
+}
+
+
+.espacoLogin{
+  margin-left: 500px;
+}
+
+/* Espaço entre o login e o cadastro */
+.espacoLogin2{
+    margin-left: 8px;
+}
+
+
+
+/* Modificações do Carvalho para o DASHBOARD*/
+
+.espaco{
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+.lateral{
+}
+
+
+/* FIM */ 
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .espacoLogin{
+        margin-left: 0px;
+      }
+      
+      /* Espaço entre o login e o cadastro */
+      .espacoLogin2{
+          margin-left: 0px;
+      }
+}
+
+
+
+
+
+/* H1 das Sections */
+h1{
+  padding-top: 10px;
+} 
+.esp{
+  font-size: 2.0rem;
+  font-weight: 300;
+} 
+.esp1{
+  font-size: 2.4rem;
+  font-weight: 300;
+} 
+/* Espaço entre texto e carrosel */
+.HomeHist{
+    padding: 15px 15px;
+}
+
+#MM{
+    padding-bottom: 50px;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+.esp{
+    padding-bottom:10px ;
+}
+
+/* Centraliza os Anos no meio da cédula */
+.anoLanc{
+    justify-content: center;
+    display: flex;
+}
+
+/* Card */
+.cardForms {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(0, 0, 0, 0.192);
+    background-clip: border-box;
+    /* border: 1px solid rgba(0, 0, 0, 0.192); */
+    border-radius: 0.25rem;
+  }
+
+/* teste */
+.neon{
+  text-shadow: 0 0 5px #FFF;
+}
+#nav-section{
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  align-self: flex-start;
+  display: flex;
+}
+
+.direita{
+  align-self: flex-end;
+}
